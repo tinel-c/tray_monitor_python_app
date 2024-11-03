@@ -7,9 +7,9 @@ import paho.mqtt.subscribe as subscribe
 import paho.mqtt.publish as publish
 import time, threading
  
-image_green = Image.open("monitor_green.png")
-image_red = Image.open("monitor_red.png")
-image_yellow = Image.open("monitor_yellow.png")
+image_green = Image.open("./monitor_green.png")
+image_red = Image.open("./monitor_red.png")
+image_yellow = Image.open("./monitor_yellow.png")
  
 publishStatusTopic = "hpServerStatus/state"
 publishStatusTimeTopic = "hpServerStatus/timestamp"
